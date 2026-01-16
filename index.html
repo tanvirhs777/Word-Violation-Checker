@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word Violation Checker</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <h1>Word Violation Checker</h1>
+    
+    <div class="info">
+        <strong>Violated Words:</strong> promote, healthcare, wellness, skin-friendly
+    </div>
+
+    <textarea id="inputText" placeholder="Paste your paragraph here..."></textarea>
+    
+    <button onclick="checkViolations()">Check for Violations</button>
+    
+    <div id="result"></div>
+
+    <div style="display: flex; gap: 10px; margin-top: 20px;">
+        <button onclick="removeViolatedWords()" style="background-color: #f44336;">Remove Violated Words</button>
+        <button onclick="copyText()" style="background-color: #2196F3;">Copy Text</button>
+    </div>
+
+</body>
+</html>
