@@ -16,7 +16,7 @@
 
             // Check each violated word
             violatedWords.forEach(word => {
-                // Create a regular expression to find the word (case insensitive)
+            // Create a regular expression to find the word (case insensitive)
                 const regex = new RegExp(`\\b${word}\\b`, 'gi');
                 
                 // Replace the word with underlined version
